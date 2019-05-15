@@ -1,0 +1,32 @@
+.img_container {
+  display: contents !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+  img {
+    margin: 5px;
+    height: 160px !important;
+    width: 159px !important;
+  }
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .logo {
+    height: 150px;
+  }
+}
+
+.main-content-wrap {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  grid-column-gap: 20px !important;
+  margin: 40px;
+  padding: 20px;
+
+  .imageShow,
+  .storyBoard {
+    padding: 20px;
+  }
+}
